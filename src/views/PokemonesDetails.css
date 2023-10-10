@@ -1,0 +1,69 @@
+/* Estilos para la tarjeta */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    /* Agregar más propiedades según sea necesario */
+}
+
+/* Estilos para la imagen del Pokémon */
+.card-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    /* Agregar más propiedades según sea necesario */
+}
+
+/* Estilos para el título del Pokémon */
+.card-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+    /* Agregar más propiedades según sea necesario */
+}
+
+/* Estilos para las características del Pokémon */
+.card-text {
+    font-size: 16px;
+    margin-bottom: 6px;
+    color: #555;
+    /* Agregar más propiedades según sea necesario */
+}
+
+/* Estilos para el tipo del Pokémon */
+.small {
+    font-size: 14px;
+    color: #777;
+
+}
+
+
+.card:hover {
+    background-color: #d7e7f8;
+
+}
+.card:hover {
+    background-color: #e9ecef;
+    transform: scale(1.05); /* Escala la tarjeta al 105% al pasar el cursor */
+}
+
+
+.card-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 18px;
+    opacity: 0; /* Configura la opacidad inicial en 0 para ocultar la imagen */
+    transition: opacity 1.7s ease; 
+}
+
+.card:hover .card-img {
+    opacity: 6; /* Cambia la opacidad a 1 al pasar el cursor, mostrando la imagen */
+}
+
+

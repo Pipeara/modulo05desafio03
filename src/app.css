@@ -1,0 +1,34 @@
+body {
+    font-size: 30px;
+    background-color: rgb(102, 98, 98);
+   
+      font-family: Arial, sans-serif;
+      background-image: url('../src/assets/fondo.png'); /* Reemplaza 'ruta/a/tu/imagen-de-fondo.jpg' con la ruta correcta de tu imagen de fondo */
+      background-size: cover; 
+      background-repeat: no-repeat; 
+      background-attachment: fixed; 
+      margin: 0;
+      padding: 0;
+      /* Otros estilos de body */
+    }  
+    /* Estilos para achicar la card de la imagen del Pokémon */
+.small-image-card {
+  max-width: 100px; /* Ancho máximo de la card */
+  max-height: 200px; /* Altura máxima de la card */
+}
+
+
+  /* clase para activo e inactivo en NavLink */
+  .active {
+    color: rgb(228, 112, 112);
+    text-decoration: none;
+  }
+  
+  .no_active {
+    color: rgb(201, 194, 194);
+    text-decoration: none;
+  }.nav-link.active {
+    color: darkgreen; /* Cambia el color de texto */
+    font-weight: bold; /* Texto en negrita */
+    background-color: #cbb0b0; /* Cambia el fondo */
+  }

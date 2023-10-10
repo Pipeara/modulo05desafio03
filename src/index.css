@@ -1,0 +1,15 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ea3838;
+  }
+  
+  /* Estilo para la clase "active" en los enlaces de navegación */
+  .active {
+    color: darkgreen; /* Color de texto para enlaces activos */
+    font-weight: bold; /* Texto en negrita para enlaces activos */
+    text-decoration: underline; /* Subrayado para enlaces activos (puedes personalizarlo) */
+  }
+  
